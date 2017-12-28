@@ -1,12 +1,12 @@
 {
     "name": "qycloud/jpgraph",
     "type": "library",
-    "description": "This package contains the JpGraph PHP library Pro version 3.5.x",
+    "description": "This package contains the JpGraph PHP library Pro version 4.1.1",
     "keywords": ["jpgraph"],
     "homepage": "https://github.com/qycloud/jpgraph",
     "license": "MIT",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=7.0"
     },
     "autoload": {
         "files": [ "JpGraph.php" ]

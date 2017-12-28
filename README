@@ -1,7 +1,7 @@
-README FOR JPGRAPH 3.5.x
+README FOR JPGRAPH 4.1.x
 =========================
 
-This package contains the JpGraph PHP library Pro version 3.5.x
+This package contains the JpGraph PHP library Pro version 4.1.x
 
 The library is Copyright (C) 2000-2010 Asial Corporatoin and
 released under dual license QPL 1.0 for open source and educational
@@ -18,12 +18,12 @@ http://jpgraph.net/download/
 Requirements:
 -------------
 Miminum:
-* PHP 5.1.0 or higher 
+* PHP 7.0 or higher 
 * GD 2.0.28 or higher
 Note: Earlier versions might work but is unsupported.
 
 Recommended:
-* >= PHP 5.2.0
+* >= PHP 7.0
 * PHP Builtin GD library
 
 Installation
