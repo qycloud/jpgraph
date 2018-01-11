@@ -103,12 +103,12 @@ class Image {
     // Should we use anti-aliasing. Note: This really slows down graphics!
     function SetAntiAliasing($aFlg=true) {
         $this->use_anti_aliasing = $aFlg;
-        if( function_exists('imageantialias') ) {
-            imageantialias($this->img,$aFlg);
-        }
-        else {
-            JpGraphError::RaiseL(25128);//('The function imageantialias() is not available in your PHP installation. Use the GD version that comes with PHP and not the standalone version.')
-        }
+//         if( function_exists('imageantialias') ) {
+//             imageantialias($this->img,$aFlg);
+//         }
+//         else {
+//             JpGraphError::RaiseL(25128);//('The function imageantialias() is not available in your PHP installation. Use the GD version that comes with PHP and not the standalone version.')
+//         }
     }
 
     function GetAntiAliasing() {
